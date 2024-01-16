@@ -8,4 +8,22 @@ div.encabezado{
    background-image: url(/imgs/guesteaus.png);
    text-align: center;
    font-size: 36px;
+   background-position: center;
+   line-height: 3;
+   padding: 50px 0;
+}
+div.menu ul,li{
+   background-color:#a77e58;
+   color:#ffffff;
+   font-family:Helvetica, sans-serif;
+   font-size: 18px;
+}
+div.menu li a:hover{
+   color: #8b6f47;
+}
+div.contenido{
+   background-color:#fff8f0;
+   color: #5a3e36;
+   font-family: Georgia,serif;
+   font-size: 18px;
 }
