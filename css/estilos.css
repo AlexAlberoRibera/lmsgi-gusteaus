@@ -61,6 +61,9 @@ div.menu ul li a {
 }
 div.menu ul li a:hover {
    color:#5a3e36 ;
+   background-color: aqua;
+   font-family:Verdana,Tahoma, sans-serif;
+   font-style:italic;
 }
 a:hover{
    color:#8b6f47 ;
