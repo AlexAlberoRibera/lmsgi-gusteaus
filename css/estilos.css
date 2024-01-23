@@ -47,11 +47,23 @@ div.menu ul{
    background-color: #a77e58 ;
    color: #ffff;
    font-family: Helvetica, sans-serif;
+   list-style-type: none;
+}
+div.menu ul li{
+   float: left;
+   text-align: center;
+   padding: 18px;
 }
 div.menu ul li a {
    background-color: #a77e58 ;
    color: #ffff;
    font-family: Helvetica, sans-serif;
+}
+div.menu ul li a:hover {
+   color:#5a3e36 ;
+   background-color: aqua;
+   font-family:Verdana,Tahoma, sans-serif;
+   font-style:italic;
 }
 a:hover{
    color:#8b6f47 ;
@@ -69,9 +81,13 @@ div.sidebar{
    font-family: Georgia,serif;
 }
 div.pie{
-   background-color:#a77e58;
-   color: #ffff;
+   background-color:#5a3e36;
+   color: #ecdcc6;
    font-family: Helvetica, sans-serif;
-   font-size: 18px;
+   font-size: 16px;
    text-align: center;
+
+}
+div.pie a{
+padding: 32px;
 }
