@@ -52,12 +52,15 @@ div.menu ul{
 div.menu ul li{
    float: left;
    text-align: center;
-   padding: 30px;
+   padding: 18px;
 }
 div.menu ul li a {
    background-color: #a77e58 ;
    color: #ffff;
    font-family: Helvetica, sans-serif;
+}
+div.menu ul li a:hover {
+   color:#5a3e36 ;
 }
 a:hover{
    color:#8b6f47 ;
