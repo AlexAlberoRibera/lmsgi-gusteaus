@@ -47,6 +47,12 @@ div.menu ul{
    background-color: #a77e58 ;
    color: #ffff;
    font-family: Helvetica, sans-serif;
+   list-style-type: none;
+}
+div.menu ul li{
+   float: left;
+   text-align: center;
+   padding: 30px;
 }
 div.menu ul li a {
    background-color: #a77e58 ;
@@ -75,4 +81,7 @@ div.pie{
    font-size: 16px;
    text-align: center;
 
+}
+div.pie a{
+padding: 32px;
 }
