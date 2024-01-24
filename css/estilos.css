@@ -1,11 +1,13 @@
 
-#contenedor{
+ 
+ #contenedor {
    background-color: #fff8f0;
-   font-family: 'Times New Roman', serif;
+   font-family: 'Times New Roman', Times, serif;
    font-size: 16px;
-}
-div.encabezado{
-   color:#5a3e36;
+ }
+ 
+ div.encabezado {
+   color: #5a3e36;
    background-image: url(/imgs/guesteaus.png);
    background-size: cover;
    text-align: center;
@@ -14,80 +16,86 @@ div.encabezado{
    line-height: 3;
    padding: 50px 0;
    padding-top: 98px;
-   font-family: Georgia,serif;
-}
-div.encabezado img{
+   font-family: Georgia, serif;
+ }
+ 
+ div.encabezado img {
    width: 100px;
-   height:100px;
+   height: 100px;
    padding-right: 30px;
-}
-div.menu ul,li{
-   background-color:#a77e58;
-   color:#ffffff;
-   font-family:Helvetica, sans-serif;
+ }
+ 
+ div.menu ul,
+ div.menu li {
+   background-color: #a77e58;
+   color: #ffffff;
+   font-family: Helvetica, sans-serif;
    font-size: 18px;
-}
-div.menu li a:hover{
+ }
+ 
+ div.menu li a:hover {
    color: #8b6f47;
-}
-div.contenido{
-   background-color:#fff8f0;
-   color: #5a3e36;
-   font-family: Georgia,serif;
-   font-size: 18px;
-}
-
-#contenedor{
-   background-color: #fff8f0;
-   font-family: 'Times New Roman', Times, serif;
-   font-size: 16px;
-}
-
-div.menu ul{
-   background-color: #a77e58 ;
-   color: #ffff;
-   font-family: Helvetica, sans-serif;
-   list-style-type: none;
-}
-div.menu ul li{
-   float: left;
-   text-align: center;
-   padding: 18px;
-}
-div.menu ul li a {
-   background-color: #a77e58 ;
-   color: #ffff;
-   font-family: Helvetica, sans-serif;
-}
-div.menu ul li a:hover {
-   color:#5a3e36 ;
-   background-color: aqua;
-   font-family:Verdana,Tahoma, sans-serif;
-   font-style:italic;
-}
-a:hover{
-   color:#8b6f47 ;
-}
-div.contenido{
+ }
+ 
+ div.contenido {
    background-color: #fff8f0;
    color: #5a3e36;
    font-family: Georgia, serif;
    font-size: 18px;
-}
-div.sidebar{
+   float: left;
+   width: 70%;
+   padding: 30px;
+ }
+ 
+ div.menu ul {
+   background-color: #a77e58;
+   color: #ffff;
+   font-family: Helvetica, sans-serif;
+   list-style-type: none;
+ }
+ 
+ div.menu ul li {
+   float: left;
+   text-align: center;
+   padding: 18px;
+ }
+ 
+ div.menu ul li a {
+   background-color: #a77e58;
+   color: #ffff;
+   font-family: Helvetica, sans-serif;
+ }
+ 
+ div.menu ul li a:hover {
+   color: #5a3e36;
+   background-color: aqua;
+   font-family: Verdana, Tahoma, sans-serif;
+   font-style: italic;
+   font-size: small;
+ }
+ 
+ a:hover {
+   color: #8b6f47;
+ }
+ 
+ div.sidebar {
    background-color: #ecdcc6;
    color: #5a3e36;
    font-size: 18px;
-   font-family: Georgia,serif;
-}
-div.pie{
-   background-color:#5a3e36;
+   font-family: Georgia, serif;
+   float: right;
+   width: 30%;
+ }
+ 
+ div.pie {
+   background-color: #5a3e36;
    color: #ecdcc6;
    font-family: Helvetica, sans-serif;
    font-size: 16px;
    text-align: center;
-
-}
-div.pie a{
-padding: 32px;
-}
+ }
+ 
+ div.pie a {
+   padding: 32px;
+ }
+ 
